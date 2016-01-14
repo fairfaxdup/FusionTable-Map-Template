@@ -165,12 +165,12 @@
         
         //-----custom filters-----
         
-        var type_column = "'Status2'"; // -- note use of single & double quotes for two-word column header
+        var type_column = "'StatusMarker'"; // -- note use of single & double quotes for two-word column header
         var tempWhereClause = [];
 
-    if ( $("#cbType1").is(':checked')) tempWhereClause.push("no");
+    if ( $("#cbType1").is(':checked')) tempWhereClause.push("ltblu_blank");
 
-    if ( $("#cbType2").is(':checked')) tempWhereClause.push("Unisex");
+    if ( $("#cbType2").is(':checked')) tempWhereClause.push("stop");
 
     if ( $("#cbType3").is(':checked')) tempWhereClause.push("Pissoir");
 
