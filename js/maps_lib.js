@@ -127,6 +127,7 @@
                     else if (self.searchRadius >= 80500) map.setZoom(8); // 100 miles
                     else if (self.searchRadius >= 40250) map.setZoom(9); // 100 miles
                     else if (self.searchRadius >= 16100) map.setZoom(11); // 10 miles
+                    else if (self.searchRadius >= 11270) map.setZoom(11); // 7 miles
                     else if (self.searchRadius >= 8050) map.setZoom(12); // 5 miles
                     else if (self.searchRadius >= 3220) map.setZoom(13); // 2 miles
                     else if (self.searchRadius >= 1610) map.setZoom(14); // 1 mile
